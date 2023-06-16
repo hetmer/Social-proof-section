@@ -1,0 +1,154 @@
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+:root{
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--Light-Grayish-Magenta);
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+}
+
+.container{
+	width: 80%;
+	margin: 0 20rem;
+}
+
+.top{
+	display: flex;
+	justify-content: space-between;
+	margin: 150px 50px 50px 50px;
+	flex-wrap: wrap;
+
+}
+
+.top h1{
+	font-size: 3.5rem;
+	color: var(--Very-Dark-Magenta);
+	margin-bottom: 1rem;
+}
+
+.top p {
+	font-size: 16px;
+	color: var(--Dark-Grayish-Magenta);
+	font-weight: 500;
+	line-height: 1.25rem;
+	margin-top: 30px;
+}
+
+.ratings{
+	margin-right: 16rem;
+}
+
+.customer-rating{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #eddef0;
+	padding: 1rem 2rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	align-items: center;
+	border-radius: 10px;
+	color: var(--Very-Dark-Magenta);
+}
+
+.rating-img{
+	margin-right: 1rem;
+	padding: 2px 3px ;
+}
+
+.rating-1st{
+	margin-right: 2rem;
+}
+
+.rating-2nd{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.rating-3rd{
+	margin-left: 2rem;
+}
+
+.bottom-ratings{
+	margin-top: 50px;
+}
+
+.rating-card{
+	display: flex;
+	gap: 2rem;
+	margin-left: 3rem;
+	margin-top: 5rem;
+}
+
+.card{
+	background-color: #511f50;
+	width: 300px;
+	height: 150px;
+	margin-right: 1rem;
+	padding: 40px 25px;
+	border-radius: 8px;
+}
+
+.profile{
+	display: flex;
+	align-items: center;
+}
+
+.profile-img img{
+	width: 50px;
+	height: auto;
+	border-radius: 100px;
+	margin-right: 1rem;
+}
+
+.profile h3{
+	font-size: 1rem;
+	color: var(--Light-Grayish-Magenta);
+	margin-bottom: 3px;
+}
+
+.profile h5{
+	font-size: 1rem;
+	color: hsl(333, 56%, 41%);
+}
+
+.review p {
+	color: var(--Light-Grayish-Magenta);
+	font-size: 1rem;
+	line-height: 1.35rem;
+	margin-top: 20px;
+	margin-left: .5rem;
+	align-items: center;
+}
+
+.rating-card-2{
+	margin-top: 1.5rem;
+}
+
+.rating-card-3{
+	margin-top: 3rem;
+} 
+
+.attribution {
+    font-size: 20px;
+    text-align: center;
+	margin-top: 20px;
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
